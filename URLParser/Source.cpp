@@ -12,6 +12,7 @@ void parseurl(std::string url) {
 
 int main() {
 	std::string url;
+	std::cout << "Please enter a URL: ";
 	std::cin >> url;
 	parseurl(url);
 }
